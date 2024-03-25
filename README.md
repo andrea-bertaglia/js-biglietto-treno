@@ -38,8 +38,8 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
     calcolo sconto = prezzo lordo _ 20 / 100
     Altrimenti se (l'età inserita è > 65)
     calcolo sconto = prezzo lordo _ 40 / 100
-  <!-- Altrimenti
-      calcolo sconto = prezzo lordo * 0 / 100 -->
+<!-- Altrimenti
+    calcolo sconto = prezzo lordo * 0 / 100 -->
 - [ ] Calcolo del prezzo netto (prezzo lordo - sconto)
 - [ ] Trasformazione del prezzo in formato con 2 decimali
 
