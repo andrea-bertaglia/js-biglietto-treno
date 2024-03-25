@@ -12,11 +12,11 @@ console.log("age: ", userAge, typeof userAge);
 
 // 2. Logica
 // Dichiarazione della variabile relativa allo sconto
-let discount = 0;
-let net = 0;
+let discount = 0; // number
+let net = 0; // number
 
 // Dichiarazione e calcolo variabile prezzo lordo
-let gross = userKm * 0.21;
+let gross = userKm * 0.21; // number
 console.log("gross: ", gross);
 
 // Controllo del tipo di sconto da applicare
@@ -33,5 +33,15 @@ net = gross - discount;
 console.log("net: ", net);
 
 // Trasformazione del prezzo in formato con 2 decimali
-net = net.toFixed(2);
+net = net.toFixed(2); // number to string
 console.log("net (string rounded): ", net);
+
+// 3. Output
+// Preparazione del messaggio con il totale
+const resultMessage = `L'importo da pagare è: ${net} €` // string
+console.log(resultMessage);
+
+// Stampa in pagina
+document.getElementById("age").innerHTML = userAge;
+document.getElementById("km").innerHTML = userKm;
+document.getElementById("message").innerHTML = resultMessage;

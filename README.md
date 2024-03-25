@@ -46,5 +46,5 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 ### 3. Output
 
-- [ ] Preparazione del messaggio con il totale
-- [ ] Stampa in pagina del totale
+- [x] Preparazione del messaggio con il totale
+- [x] Stampa in pagina del totale
