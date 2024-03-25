@@ -25,23 +25,24 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 ### 1. Raccolta dati
 
-- [ ] Chiedere all'utente il numero dei km da percorrere
-- [ ] Chiedere all'utente l'età del passeggero
+- [x] Chiedere all'utente il numero dei km da percorrere
+- [x] Chiedere all'utente l'età del passeggero
 
 ### 2. Logica
 
-- [ ] Dichiarazione della variabile sconto
-- [ ] Dichiarazione della variabile prezzo lordo e calcolo
-      Prezzo lordo = 0.21 \* km inseriti
-- [ ] Controllo del tipo di sconto da applicare
+- [x] Dichiarazione della variabile sconto
+- [x] Dichiarazione della variabile prezzo netto
+- [x] Dichiarazione della variabile prezzo lordo e calcolo
+      Prezzo lordo = 0.21 x km inseriti
+- [x] Controllo del tipo di sconto da applicare
     Se (l'età inserita è < 18)
-    calcolo sconto = prezzo lordo _ 20 / 100
+    calcolo sconto = prezzo lordo x 20 / 100
     Altrimenti se (l'età inserita è > 65)
-    calcolo sconto = prezzo lordo _ 40 / 100
+    calcolo sconto = prezzo lordo x 40 / 100
 <!-- Altrimenti
     calcolo sconto = prezzo lordo * 0 / 100 -->
-- [ ] Calcolo del prezzo netto (prezzo lordo - sconto)
-- [ ] Trasformazione del prezzo in formato con 2 decimali
+- [x] Calcolo del prezzo netto (prezzo lordo - sconto)
+- [x] Trasformazione del prezzo in formato con 2 decimali
 
 ### 3. Output
 
